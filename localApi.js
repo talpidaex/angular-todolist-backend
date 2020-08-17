@@ -37,6 +37,7 @@ app.put("/todo", (req, res) => {
     res.json({message : "İşlem başarılı"})
 })
 /* Delete işlemi yerinde put çağırılıyor! */
-app.listen(3001, () => {
+var port = process.env.PORT || 3001;
+app.listen(port, () => {
     console.log("Port : 3001");
 })
