@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 //mongodb conf.
-mongoose.connect("mongodb://localhost:27017/todolist",
+mongoose.connect("mongodb+srv://talpidaex:admin*@angular-todolist.aadwe.mongodb.net/angular-todolist?retryWrites=true&w=majority",
 {useNewUrlParser : true, 
 useUnifiedTopology: true });
 
